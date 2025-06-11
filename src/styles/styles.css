@@ -8,10 +8,10 @@
     --branco: #FFFF;
     --cinza-claro: #98A2B3;
     --cinza: #667085;
-    --cinza-escuro: #3A404E;
-    --azul-escuro: #101828;
+    --cinza-medio: #3A404E;
+    --cinza-escuro: #101828;
     --vermelho: #8E2424;
-    --fonte-principal: 'Inter';
+    --fonte-principal: 'Inter', 'sans-serif';
 }
 
 body{

@@ -1,0 +1,35 @@
+.corpo{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+}
+
+.corpo__descricao{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 6rem 0;
+}
+
+.corpo__descricao-sobre, .corpo__descricao-titulo{
+    margin-bottom: 1.5rem;
+    font-weight: 600;
+}
+
+.corpo__descricao-sobre{
+    
+    color: var(--vermelho);
+}
+
+.corpo__descricao-titulo{
+    font-size: 3rem;
+    color: var(--cinza-escuro);
+}
+
+.corpo__descricao-descricao{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cinza);
+    width: 50%;
+}

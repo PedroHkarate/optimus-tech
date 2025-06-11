@@ -1,5 +1,6 @@
 .container{
     padding: 1.12rem 5rem;
+    width: auto;
 }
 
 .cabecalho{
@@ -17,7 +18,7 @@
 
 .cabecalho__div-1{
     gap: 0.5rem;
-    color: var(--cinza-escuro);
+    color: var(--cinza-medio);
     font-size: 1.12rem;
     font-weight: 500;
 }
