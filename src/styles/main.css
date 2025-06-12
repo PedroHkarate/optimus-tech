@@ -49,7 +49,8 @@
 }
 
 .lista__item-corpo{
-    width: 17.5rem;
+    max-width: 16rem;
+    text-align: left;
 }
 
 .corpo__dados-numero{
