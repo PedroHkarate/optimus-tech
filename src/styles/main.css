@@ -71,3 +71,43 @@
     font-weight: 400;
     color: var(--cinza);
 }
+
+
+.corpo__vagas{
+    padding: 6rem 0;
+}
+.corpo__vagas-container, .corpo__vagas-apresentacao{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.corpo__vagas-apresentacao{
+    text-align: center;
+}
+
+.apresentacao__vagas-A{
+    font-size: 0.87rem;
+    color: var(--vermelho);
+    font-weight: 500;
+    padding-bottom: 1rem;
+}
+
+.apresentacao__titulo{
+    font-size: 2.25rem;
+    font-weight: 600;
+    color: var(--cinza-escuro);
+    padding-bottom: 1.25rem;
+}
+
+.apresentacao__descricao{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--cinza);
+    padding-bottom: 4rem;
+}
+
+.apresentacao__imagem{
+    margin: 0 2rem;
+}
+
