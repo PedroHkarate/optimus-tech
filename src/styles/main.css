@@ -111,13 +111,13 @@
 }
 
 .apresentacao__imagem {
-    width: 70%;
+    width: auto;
     margin: 0 2rem;
 }
 
 .corpo__vagas-cargos,
 .container__lista-cargo,
-.lista__item-cargo {
+.lista__item-cargo{
     display: flex;
     flex-direction: column;
 }
@@ -126,6 +126,17 @@
     margin-top: 4rem;
     gap: 4rem;
     font-weight: 500;
+    width: 80rem;
+}
+
+.corpo__vagas-cargos-container{
+    padding: 0 2rem;
+}
+
+.lista-cargo{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cargo-area {
@@ -139,11 +150,12 @@
 }
 
 .container__lista-cargo {
-    margin: 1.5rem 1.5rem 1.75rem 1.5rem;
+    margin-bottom: 1.75rem;
     gap: 1.5rem;
 }
 
 .lista__item-cargo {
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     gap: 2rem;
 }
 
