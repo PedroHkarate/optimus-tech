@@ -1,10 +1,10 @@
-.corpo{
+.corpo {
     display: flex;
     flex-direction: column;
     width: auto;
 }
 
-.corpo__descricao{
+.corpo__descricao {
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -12,103 +12,212 @@
     padding: 6rem 0;
 }
 
-.corpo__descricao-sobre, .corpo__descricao-titulo{
+.corpo__descricao-sobre,
+.corpo__descricao-titulo {
     margin-bottom: 1.5rem;
     font-weight: 600;
 }
 
-.corpo__descricao-sobre{
-    
+.corpo__descricao-sobre {
+
     color: var(--vermelho);
 }
 
-.corpo__descricao-titulo{
+.corpo__descricao-titulo {
     font-size: 3rem;
     color: var(--cinza-escuro);
 }
 
-.corpo__descricao-descricao{
+.corpo__descricao-descricao {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--cinza);
     width: 50%;
 }
 
-.corpo__dados{
+.corpo__dados {
     padding: 0 5rem 6rem 5rem;
 }
 
-.corpo__dados-container{
+.corpo__dados-container {
     padding: 0 2rem;
 }
 
-.lista__dados{
+.lista__dados {
     display: flex;
     gap: 2rem;
     justify-content: center;
 }
 
-.lista__item-corpo{
+.lista__item-corpo {
     max-width: 16rem;
     text-align: left;
 }
 
-.corpo__dados-numero{
+.corpo__dados-numero {
     font-size: 3.75rem;
     font-weight: 600;
     color: var(--vermelho);
 }
 
-.corpo__dados-titulo{
+.corpo__dados-titulo {
     font-size: 1.12rem;
     color: var(--cinza-escuro);
     font-weight: 500;
     padding: 0.75rem 0 0.5rem 0;
 }
 
-.corpo__dados-descricao{
+.corpo__dados-descricao {
     font-size: 1rem;
     font-weight: 400;
     color: var(--cinza);
 }
 
 
-.corpo__vagas{
+.corpo__vagas {
     padding: 6rem 0;
 }
-.corpo__vagas-container, .corpo__vagas-apresentacao{
+
+.corpo__vagas-container,
+.corpo__vagas-apresentacao {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.corpo__vagas-apresentacao{
+.corpo__vagas-apresentacao {
     text-align: center;
 }
 
-.apresentacao__vagas-A{
+.apresentacao__vagas-A {
     font-size: 0.87rem;
     color: var(--vermelho);
     font-weight: 500;
     padding-bottom: 1rem;
 }
 
-.apresentacao__titulo{
+.apresentacao__titulo {
     font-size: 2.25rem;
     font-weight: 600;
     color: var(--cinza-escuro);
     padding-bottom: 1.25rem;
 }
 
-.apresentacao__descricao{
+.apresentacao__descricao {
     font-size: 1.25rem;
     font-weight: 400;
     color: var(--cinza);
     padding-bottom: 4rem;
 }
 
-.apresentacao__imagem{
+.apresentacao__imagem {
     width: 70%;
     margin: 0 2rem;
 }
 
+.corpo__vagas-cargos,
+.container__lista-cargo,
+.lista__item-cargo {
+    display: flex;
+    flex-direction: column;
+}
+
+.corpo__vagas-cargos {
+    margin-top: 4rem;
+    gap: 4rem;
+    font-weight: 500;
+}
+
+.cargo-area {
+    font-size: 1.25rem;
+    margin-bottom: 2rem;
+}
+
+.cargo-area,
+.cargo-titulo {
+    color: var(--cinza-escuro);
+}
+
+.container__lista-cargo {
+    margin: 1.5rem 1.5rem 1.75rem 1.5rem;
+    gap: 1.5rem;
+}
+
+.lista__item-cargo {
+    gap: 2rem;
+}
+
+.lista__item-cargo:not(:last-child) {
+    padding-bottom: 1.5rem;
+}
+
+.cargo-titulo {
+    font-size: 1.25rem;
+}
+
+.cargo__descricao {
+    display: flex;
+    gap: 1.5rem;
+    color: var(--cinza);
+    font-size: 1rem;
+}
+
+.corpo__depoimentos {
+    text-align: center;
+    padding: 0 5rem 6rem 5rem;
+}
+
+.depoimentos__container,
+.depoimentos__descricao,
+.depoimento__colaborador,
+.colaborador__descricao {
+    display: flex;
+    flex-direction: column;
+}
+
+.depoimentos__container {
+    margin: 0 2rem;
+    padding: 4rem;
+    gap: 2rem;
+}
+
+.depoimentos__descricao {
+    gap: 1rem;
+}
+
+.depoimentos__descricao-titulo {
+    font-size: 0.87rem;
+    color: var(--vermelho);
+    font-weight: 600;
+}
+
+.depoimentos__descricao-texto {
+    font-size: 2.25rem;
+    color: var(--cinza-escuro);
+    font-weight: 500;
+}
+
+.depoimento__colaborador {
+    align-items: center;
+    gap: 1rem;
+}
+
+.depoimento__colaborador>img {
+    width: auto;
+}
+
+.colaborador__descricao {
+    gap: 0.25rem;
+}
+
+.colaborador__nome {
+    color: var(--cinza-escuro);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.colaborador__cargo {
+    color: var(--cinza);
+    font-size: 0.87rem;
+    font-weight: 400;
+}
