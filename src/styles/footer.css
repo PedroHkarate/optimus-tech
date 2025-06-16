@@ -1,60 +1,61 @@
-.rodape{
+.rodape {
     padding: 6rem 0;
     text-align: center;
 }
 
-.rodape__container{
+.rodape__container,
+.rodape__container-texto,
+.rodape__container-info {
     display: flex;
     flex-direction: column;
+}
+
+.rodape__container {
     gap: 2rem;
 }
 
-.rodape__container-texto{
-    display: flex;
-    flex-direction: column;
+.rodape__container-texto {
     gap: 2rem;
 }
 
-.rodape__container-info{
-    display: flex;
-    flex-direction: column;
+.rodape__container-info {
     gap: 1.25rem
 }
 
-.rodape__container-titulo{
+.rodape__container-titulo {
     color: var(--cinza-escuro);
     font-size: 2.25rem;
     font-weight: 600;
 }
 
-.rodape__container-texto{
+.rodape__container-texto {
     color: var(--cinza);
     font-size: 1.25rem;
     font-weight: 400;
 }
 
-.rodape__container-email{
+.rodape__container-email {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 1rem;
 }
 
-.email-box{
+.email-box {
     border: 2px solid var(--acinzentado-2);
     padding: 0.75rem 1rem;
     border-radius: 8px;
     width: 20%;
 }
 
-.rodape-botao{
+.rodape-botao {
     background-color: var(--vermelho);
     color: var(--branco);
     padding: 0.75rem 1.25rem;
     border-radius: 8px;
 }
 
-.rodape__container-direitos{
+.rodape__container-direitos {
     font-size: 1rem;
     color: var(--cinza-claro);
     font-weight: 400;

@@ -24,6 +24,17 @@
     font-weight: 500;
 }
 
+.cabecalho-link{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    text-decoration: none;
+}
+
+.cabecalho__titulo{
+    color: var(--cinza-medio);
+}
+
 .cabecalho__lista {
     gap: 0 2rem;
     margin-right: auto;
