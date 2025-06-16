@@ -157,6 +157,8 @@
 .lista__item-cargo {
     padding: 1.5rem 1.5rem 1.75rem 1.5rem;
     gap: 2rem;
+    border: 2px solid var(--acinzentado);
+    border-radius: 16px;
 }
 
 .lista__item-cargo:not(:last-child) {
