@@ -21,7 +21,7 @@ O site "OptimusTech" é uma página estática, porém muito bem detalhada, tendo
 Acesse o site através do link: https://optimus-tech-pedroh.vercel.app
 
 ## Portfólio
-![image](https://github.com/user-attachments/assets/002c48e6-ed87-411d-ac63-fd64510ca42d)
+![Portfolio](src/img/OptimusTech.png)
 
 ## Integrantes do Projeto
 
